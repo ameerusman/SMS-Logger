@@ -14,8 +14,6 @@ import serial
 import sys
 import os.path
 
-#make sure to install XlsxWriter and xlrd
-
 DEBUG_MESSAGES = 0 #1 is Yes, 0 is No
 
 date_start_global = ""

@@ -35,7 +35,7 @@ def graph_print():    #Gets Date from GUI and prints Data PDF on Data Folder
     
     
     
-    df_excel = pd.read_excel('stock_data.xlsx',sheet_name='Sheet1')
+    df_excel = pd.read_excel('stock_data_v2.xlsx',sheet_name='Sheet1')
     
 #     df_3[date]
     df_date_index = df_excel.set_index("Date",drop=False)
